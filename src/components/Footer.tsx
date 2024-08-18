@@ -14,7 +14,7 @@ const Footer=()=>{
                 <ul className="text-[16px] my-4">
                     <li className="my-2">Web Design</li>
                     <li className="my-2">Web Development</li>
-                    <li className="my-2">E-commerce</li>
+                    
                 </ul>
             </div>
             <div className="mb-4 md:mb-0">

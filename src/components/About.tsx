@@ -1,5 +1,5 @@
 
-import img from "../assets/profile.jpeg"
+import img from "../assets/profile1.jpg"
 const About=()=>{
     const handleClick = () => {
         window.location.href = 'https://drive.google.com/file/d/1oImQhzpEXoGZDHcXDQA6VmuaILuMV6GP/view?usp=sharing';
@@ -21,7 +21,7 @@ const About=()=>{
                     </div>
                 </div>
             </div>
-            <img data-aos="fade-down" src={img} width={290} height={290} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" alt="" />
+            <img data-aos="fade-down" src={img} width={290} height={290} className="rounded-md  img_glow" alt="" />
         </div>
         </div>
     );
