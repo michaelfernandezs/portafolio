@@ -15,7 +15,7 @@ const App=()=> {
       
     <>
 
-      <div className="bg-gradient-to-r from-blue-600 to-blue-900">
+      <div className="bg-slate-950  ">
 
       <Navbar/>
       <Banner/>

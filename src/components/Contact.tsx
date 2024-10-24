@@ -59,12 +59,12 @@ const Contact: React.FC = () => {
   return (
  
     <div id="Contact" className="p-4 lg:p-20 flex flex-col items-center justify-center">
-      <h1 className="text-[50px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">Contact with Me</h1>
+      <h1 className="text-[50px] font-semibold mb-20 leading-normal uppercase text-green-500">Contact with Me</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-6 lg:w-1/2">
         <div className="lg:flex gap-9">
           <input
             name="name"
-            className="w-full lg:my-3 my-4 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+            className="w-full lg:my-3 my-4 rounded-lg bg-slate-950 p-4 border-2 border-green-500 b_glow text-xl text-slate-500"
             placeholder="Enter your Name"
             type="text"
             value={formData.name}
@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
           />
           <input
             name="email"
-            className="w-full lg:my-3 my-4 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+            className="w-full lg:my-3 my-4 rounded-lg  bg-slate-950 p-4 border-2 border-green-500 b_glow text-xl text-slate-500"
             placeholder="Enter your Email"
             type="email"
             value={formData.email}
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
         </div>
         <textarea
           name="message"
-          className="w-full my-3 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+          className="w-full my-3 rounded-lg  bg-slate-950 p-4 border-2 border-green-500 b_glow text-xl text-slate-500"
           placeholder="Write your Message.."
           id="message"
           value={formData.message}
@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
           rows={10}
         />
         <button
-          className="neno-button shadow-xl hover:shadow-blue-850/50 text-white border-2 border-blue-800 bg-blue-800 hover:bg-blue-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold mb-10"
+          className="neno-button shadow-xl hover:shadow-blue-850/50 text-white border-2 border-blue-800 bg-slate-950 hover:bg-blue-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold  text-slate-50 mb-10"
           type="submit"
         >
           Submit
